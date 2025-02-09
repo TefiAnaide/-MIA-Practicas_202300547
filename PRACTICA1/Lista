@@ -1,0 +1,9 @@
+digraph {
+	rankdir=LR
+	{
+		rank=same
+		head [label="Lista Contigua" shape=plaintext]
+		tabla [label=<<TABLE BORDER='1' CELLBORDER='1' CELLSPACING='0'><TR><TD>a</TD><TD>b</TD><TD>1</TD><TD>2</TD></TR></TABLE>> shape=plaintext]
+		head -> tabla
+	}
+}
